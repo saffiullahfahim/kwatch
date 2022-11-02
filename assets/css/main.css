@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Courier, monospace;
+}
+
+main {
+  background-image: url("../img/background.png");
+  /* background-position: center; */
+  background-size: 100% auto;
+  min-height: 100vh;
+  height: max-content;
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28.444444444444443px 81.81770833333334px;
+  margin-bottom: 0;
+}
+
+header .logo {
+  width: 98.18124999999999px;
+  height: 32px;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header nav div {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.075px;
+  /* line-height: 36px; */
+  margin-left: 59.05104166666666px;
+  cursor: pointer;
+}
+
+header nav .signup {
+  padding: 2.1333333333333333px 13.517708333333333px;
+  background-color: #d9d9d9;
+  color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 82.4888888888889px 119.52499999999999px;
+  margin-bottom: 0;
+}
+
+.main .heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 85.375px;
+  line-height: 96px;
+  color: #ffffff;
+}
+
+.main .details {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21.34375px;
+  line-height: 32px;
+  text-align: justify;
+  color: #ffffff;
+  width: 558.4947916666667px;
+  margin-top: 22.044444444444444px;
+}
+
+.main .buttons {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.6125px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: white;
+  margin-top: 51.2px;
+}
+
+.main .buttons div{
+  cursor: pointer;
+}
+ 
+.main .buttons div:nth-child(1){
+  padding: 2.1333333333333333px 32.015625px;
+  background-color: #D9D9D9;
+  color: black;
+  margin-right: 46.956250000000004px;
+}
+
+.main div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main img {
+  width: 310.1958333333333px;
+  height: 484.44444444444446px;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+}
+
+.main .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+footer{
+  margin: 51.733333333333334px 119.52499999999999px; 
+  margin-bottom: 40px
+}
+
+footer svg{
+  margin-right: 12.514552083333335px;
+  cursor: pointer;
+}
